@@ -5,10 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "SPMViewTranslationPackage",
+    platforms: [.iOS(.v17)],
     products: [
+        .library(name: "Feature", targets: ["Feature"])
     ],
     dependencies: [
     ],
     targets: [
+        .target(name: "Feature")
     ]
 )
