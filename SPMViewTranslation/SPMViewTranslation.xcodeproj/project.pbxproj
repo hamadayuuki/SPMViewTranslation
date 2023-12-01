@@ -44,6 +44,7 @@
 		D4236C9A2B197B6000CC6599 /* SPMViewTranslationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPMViewTranslationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4236C9E2B197B6000CC6599 /* SPMViewTranslationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMViewTranslationUITests.swift; sourceTree = "<group>"; };
 		D4236CA02B197B6000CC6599 /* SPMViewTranslationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMViewTranslationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4236CB42B19888400CC6599 /* SPMViewTranslationPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SPMViewTranslationPackage; path = ../SPMViewTranslationPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		D4236C772B197B5C00CC6599 = {
 			isa = PBXGroup;
 			children = (
+				D4236CB42B19888400CC6599 /* SPMViewTranslationPackage */,
 				D4236C822B197B5C00CC6599 /* SPMViewTranslation */,
 				D4236C932B197B6000CC6599 /* SPMViewTranslationTests */,
 				D4236C9D2B197B6000CC6599 /* SPMViewTranslationUITests */,
